@@ -10,18 +10,20 @@
 
     <title>Password Generator</title>
   </head>
-  <body>
-    <div class="jumbotron jumbotron-fluid">
+  <body class="bg-dark well">
+    <div class="jumbotron jumbotron-fluid text-center text-danger bg-dark">
         <div class="container mx-auto">
             <h1 class="display-4">Random Password Generator</h1>
         </div>
+        <img class="img-fluid" src="./images/nyan.png" alt="nyan cat" id="imgPlacement">
     </div>
 
-    <div class="container">
-        <div class="col-6 mx-auto">
-            <textarea class="" name="" id="passwordtextfield" cols="30" rows="10" readonly placehoder="Password displayed here"></textarea>
+    <div class="container container-fluid">
+        <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-6 mx-auto form-group shadow-textarea text-center">
+            <label for="exampleFormControlTextArea6" class="text-white"><strong>Generated Password</strong></label>
+            <textarea class="text-light bg-dark form-control z-depth-3 text-center" name="" id="passwordtextfield" cols="50" rows="3" readonly placehoder="Password displayed here"></textarea>
             <br>
-            <button onclick="copypassword()" class="button">Copy Password</button>
+            <button onclick="copypassword()" class="button btn-secondary btn-circle text-danger btn-outline-dark">Copy<br>Password</button>
         </div>
     </div>
 

@@ -1,0 +1,24 @@
+.well {
+    background-image: url("./images/universe.jpg");
+}
+
+#imgPlacement {
+    max-width: 28%;
+    max-height: 28%;
+    position: absolute;
+    left: -10px;
+    top: 15%;
+    transform: rotate(-15deg);
+
+}
+
+.btn-circle {
+    border-radius: 50%;
+}
+button {
+    background-color: rgb(48, 65, 65)!important;
+}
+
+button:hover {
+    background-color: rgba(0,0,0,0.35)!important;
+}

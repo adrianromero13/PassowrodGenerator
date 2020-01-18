@@ -36,7 +36,7 @@ if (numbers) {
 
 for (let i=0; i<passwordLength; i++) {
     let index = Math.floor(Math.random()*validCharacters.length);
-    password += validCharacters[index]
+    password += validCharacters[index];
 }
 console.log("Password", password);
 
@@ -47,5 +47,5 @@ function copypassword() {
     let passwordText = document.querySelector("#passwordtextfield");
     passwordText.select()
     document.execCommand("copy")
-    alert("Your Password Has Been Copied");
+    alert("Your password has been copied to clipboard!");
 };
