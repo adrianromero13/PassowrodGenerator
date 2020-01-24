@@ -2,8 +2,8 @@
 
 ## Description
 
-This portfolio has been designed to **highlight** some of the accomplishments acheived since beginning the rough, strenuous, and knowledge intensive coding bootcamp program of University of California, Berkeley Extension. It was created with an attempt to **describe** the autor, **navigate** through some of the projects completed since the beginning, and to allow for the user to **communicate** with the author if need be.
-This portfolio project was inted to use the sources provided by bootstrap. Using the css and javascript sources from bootstrap, I've created an HTML sheet that calls out the built in codes using pre-made classes and html elements. This created a more interactive webpage that is easier to read and works well with any screen device. 
+A little bit of JavaScript to generate a password with the user's choice of parameters. A flashy HTML will generate with the CSS styles sheet and the javascript will begin by prompting some questions to the user regarding the password's character specificities. Password will generate using JavaScript and display it to the user. Then the user will be able to copy the password to their clipboard to use.
+
 
 ## Versions
 
@@ -22,35 +22,35 @@ This portfolio project was inted to use the sources provided by bootstrap. Using
 
 ## Installation
 
-![Trexgame](./assets/images/trex-game.jpg)
+![IiiiinSpaaaace](./images/space.jpg/)
 
 
 
 
-This program runs solely using custom HTML that calls out to bootstrap source code using pre-made classses
+This program uses the console from the user's device to read the JavaScript. It requires:
 
-    *Internet
-    *That is it!
+* internet to run the program
+* console to read JavaScript
+* mousepad/mouse to click buttons on display
+* set of desired parameters for password
 
 
 
 ## Usage 
-Curious about who *Adrian Romero* is?
-Need a *Full Stack Developer*?
-Well...you're in **LUCK!!**
+Using the **Random Password Generator** to generate a password at random, because its a random password generator.
 
-Click through the webpage to get a glimps of the mind and experience of me as a full stack developer. 
-The ***About*** page shares with you who I am and where I come from.
-The ***Portfolio*** page lets you see some of the work I have done since I started my journey as a developer
+First of all, respond to each prompt to ensure your password includes the type of characters you need:
 
-If you liked what you see, 
-    or you think I'd be a good fit to your team,
-then head over to the ***Contact*** section. 
-This is where you can reach out with a comment. Just make sure you provide your full name and email and I will get back to you.
+* How long does the password need to be?
+* Do you need lowercase letters?
+* Do you need uppercase letters?
+* Do you need special characters?
+* Would you like for your password to include numbers?
 
-Still curious?
-follow the link to my ***linkedin** account found on the header
-and check out my work on github!
+Each answer you provide will script the code to generate at least one of each of the character types you selected
+
+
+Check out my Github account!
 
 [Adrian'sGithub](https://github.com/adrianromero13)
 
@@ -61,7 +61,6 @@ and check out my work on github!
 ## Credits
 
 * Collaborated with:    **[Armande925](http://github.com/armande925)**
-* Clean Contact Form    **[@nickhasckell](https://codepen.io/nickhaskell)** 
 * W3 Tutorials          **[w3school](https://www.w3schools.com/css/default.asp)**
 * UC Berkeley, Extensions Full Stack Development BootCamp Instructors & Assistants
 * Google inc.           **[Google](https://www.google.com)**
@@ -83,5 +82,5 @@ and check out my work on github!
 
 
 ---
-Adrian Romero 2019 Portfolio Project
+Adrian Romero 2020 Password Generator
 
