@@ -1,16 +1,17 @@
-// needs improvement
 
 
-var length = parseInt( prompt("Enter password length"));
-// first challenge
+// prompts user to submit length of password...it should be a number, parseInt attempts to make the string into a number
+let length = parseInt( prompt("Enter password length"));
+console.log(length);
+// password generator function
 function password_generator( len ) {
-    var string = "abcdefghijklmnopqrstuvwxyz"; //to upper 
-    var numeric = '0123456789';
-    var punctuation = "!@#$%^&*()_+~`|}{[]\:;?><,./-=";
-    var password = "";
-    var character = "";
-    var crunch = true;
-    while( password.length<length ) {
+    let string = "abcdefghijklmnopqrstuvwxyz"; //to upper 
+    let numeric = '0123456789';
+    let punctuation = "!@#$%^&*";
+    let password = "";
+    let character = "";
+    let crunch = true;
+    while( password.length < length ) {
         entity1 = Math.floor(string.length * Math.random()*Math.random());
         entity2 = Math.floor(numeric.length * Math.random()*Math.random());
         entity3 = Math.floor(punctuation.length * Math.random()*Math.random());
@@ -74,11 +75,11 @@ for (let i=0; i<passwordLength; i++) {
 // console.log("Password", password);
 */
 
-// display using HTML
-// document.getElementById("passwordtextfield").innerHTML=password;
-    // with challenge1
+
+// this grabs thee value of the id in the HTML and sets it a new value to the value of the function password_generator()
 document.getElementById("passwordtextfield").innerHTML=password_generator();
 
+// function to copy whatever is on the query selector to be copied to local memory (clipboard)
 function copypassword() {
     let passwordText = document.querySelector("#passwordtextfield");
     passwordText.select()

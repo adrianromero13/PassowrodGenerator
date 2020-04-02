@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./assets/styles.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -15,20 +15,23 @@
         <div class="container mx-auto">
             <h1 class="display-4">Random Password Generator</h1>
         </div>
-        <img class="img-fluid" src="./images/nyan.png" alt="nyan cat" id="imgPlacement">
+        <img class="img-fluid" src="./assets/images/nyan.png" alt="nyan cat" id="imgPlacement">
     </div>
 
     <div class="container container-fluid">
         <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-6 mx-auto form-group shadow-textarea text-center">
-            <label for="exampleFormControlTextArea6" class="text-white"><strong>Generated Password</strong></label>
+            <label for="exampleFormControlTextArea6" clewass="text-white"><strong>Generated Password</strong></label>
             <textarea class="text-light bg-dark form-control z-depth-3 text-center" name="myPassword" id="passwordtextfield" cols="50" rows="3" readonly placehoder="Password displayed here"></textarea>
             <br>
-            <button onclick="copypassword()" class="button btn-secondary btn-circle text-danger btn-outline-dark"><p>Copy<br>Password</p></button>
+            <!-- button including the generateNew passowrd function -->
+            <button onclick="generateNew()" class="button btn-secondary btn-circle text-danger btn-outline-dark"><p>Generate<br>New</p></button>
+            <!-- button including the copypassword function -->
+            <button onclick="copyPassword()" class="button btn-secondary btn-circle text-danger btn-outline-dark"><p>Copy<br>Password</p></button>
         </div>
     </div>
 
     <!-- Optional JavaScript -->
-    <script src="./scripts.js"></script>
+    <script src="./assets/scripts.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
