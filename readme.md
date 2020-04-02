@@ -22,7 +22,7 @@ A little bit of JavaScript to generate a password with the user's choice of para
 
 ## Installation
 
-![IiiiinSpaaaace](./images/space.jpg/)
+![IiiiinSpaaaace](./assets/images/space.jpg/)
 
 
 
