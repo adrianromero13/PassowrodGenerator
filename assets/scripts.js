@@ -40,15 +40,16 @@ function generateNew() {
     for (let i=0; i<passwordLength; i++) {
         let index = Math.floor(Math.random()*validCharacters.length);
         password += validCharacters[index];
-        return password;
+        // return password;
     }
+    // console.log(password);
     
     
     
     
     console.log("password: " + password);
     // this grabs thee value of the id in the HTML and sets it a new value to the value of the function password_generator()
-    // document.getElementById("#passwordtextfield").innerHTML=password;
+    document.querySelector("#passwordtextfield").textContent=password;
 };
 
 // function to copy whatever is on the query selector to be copied to local memory (clipboard)
